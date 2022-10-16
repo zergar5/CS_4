@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CS_4": {
+      "commandName": "Project",
+      "workingDirectory": "..\\CS_4"
+    }
+  }
+}

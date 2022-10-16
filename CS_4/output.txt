@@ -1,0 +1,183 @@
+Size of file: 1904
+
+--------------------------------------------------------
+Number of frame: 1
+Destination MAC address: 00:02:16:09:FA:40
+Source MAC address: 00:90:27:A1:36:D0
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 52 
+Protocol: TCP
+Source IP address: 195.62.2.11
+Destination IP address: 195.62.2.11
+Data: C33E020B51B54ECE00168C2CE897EC01D3B5EBA08010BF2831F200000101080A
+--------------------------------------------------------
+Number of frame: 2
+Destination MAC address: 00:02:16:09:FA:40
+Source MAC address: 00:90:27:A1:36:D0
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 139 
+Protocol: TCP
+Source IP address: 195.62.2.11
+Destination IP address: 195.62.2.11
+Data: C33E020B76A54B560019EC61E865E0E62899F2CF5018C0D82AD00000323230207368616D616E2E696E746572666163652E6E736B2E73752045534D54502053656E646D61696C20382E31342E332F382E31342E333B204D6F6E2C203230204F637420323030382031343A34333A3538202B303730302028
+--------------------------------------------------------
+Number of frame: 3
+Destination MAC address: 00:90:27:A1:36:D0
+Source MAC address: 00:02:16:09:FA:40
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 104 
+Protocol: TCP
+Source IP address: 81.181.78.206
+Destination IP address: 81.181.78.206
+Data: 51B54ECEC33E020B8C2C0016D3B5EBA0E897EC0180180045B5E200000101080A089605493522BCDFD01F729E16AF36EE5320F5232AAE45382A38A873F3641D0A606E70116EB5351E29CE9C01D49095AC5FCE884B
+--------------------------------------------------------
+Number of frame: 4
+Destination MAC address: 00:02:16:09:FA:40
+Source MAC address: 00:90:27:A1:36:D0
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 104 
+Protocol: TCP
+Source IP address: 195.62.2.11
+Destination IP address: 195.62.2.11
+Data: C33E020B51B54ECE00168C2CE897EC01D3B5EBD48018BF28F30800000101080A3522BCED0896054940069D58DACF56C4FEC91B353661F70A74143EC709C047605239DD741B25BB4D16ADBCA75CEC1CD212C33CEF
+--------------------------------------------------------
+Number of frame: 5
+Destination MAC address: 00:90:27:A1:36:D0
+Source MAC address: 00:02:16:09:FA:40
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 116 
+Protocol: TCP
+Source IP address: 84.108.20.237
+Destination IP address: 84.108.20.237
+Data: 546C14EDC33E020B0B5500192A86DDF6E8681C995018FECA52C700004D41494C2046524F4D3A3C7879676E666471786940626F6F6C617A2E636F6D3E0D0A5243505420544F3A203C67616C696E6140696E746572666163652E6E736B2E73753E
+--------------------------------------------------------
+Number of frame: 6
+Destination MAC address: 00:02:16:09:FA:40
+Source MAC address: 00:90:27:A1:36:D0
+Frame type: Ethernet DIX
+Protocol type: IPv4
+Version: 4
+Header size: 20 
+Frame size: 40 
+Protocol: TCP
+Source IP address: 195.62.2.11
+Destination IP address: 195.62.2.11
+Data: C33E020B546C14ED00190B55E8681C992A86DE42
+--------------------------------------------------------
+Number of frame: 7
+Destination MAC address: 00:90:27:A1:36:D0
+Source MAC address: 08:00:45:00:00:43
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: 46FD
+--------------------------------------------------------
+Number of frame: 8
+Destination MAC address: 40:00:FF:11:5F:25
+Source MAC address: C3:3E:02:0B:C0:1F
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: 501E
+--------------------------------------------------------
+Number of frame: 9
+Destination MAC address: AD:EB:00:35:00:2F
+Source MAC address: E6:36:3F:DC:00:00
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Number of frame: 10
+Destination MAC address: 00:00:00:00:01:06
+Source MAC address: 62:6F:6F:6C:61:7A
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Number of frame: 11
+Destination MAC address: 15:04:6E:73:34:33
+Source MAC address: 0D:64:6F:6D:61:69
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: 6E63
+--------------------------------------------------------
+Number of frame: 12
+Destination MAC address: 6F:6E:74:72:6F:6C
+Source MAC address: C0:13:C0:0C:00:02
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Number of frame: 13
+Destination MAC address: 02:A3:00:00:07:04
+Source MAC address: 6E:73:34:34:C0:2D
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: C028
+--------------------------------------------------------
+Number of frame: 14
+Destination MAC address: 00:01:00:01:00:02
+Source MAC address: A3:00:00:04:D8:45
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: B916
+--------------------------------------------------------
+Number of frame: 15
+Destination MAC address: C0:49:00:01:00:01
+Source MAC address: 00:02:A3:00:00:04
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: D06D
+--------------------------------------------------------
+Number of frame: 16
+Destination MAC address: FF:16:00:00:29:02
+Source MAC address: 00:00:00:00:00:00
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Number of frame: 17
+Destination MAC address: 90:27:A1:36:D0:00
+Source MAC address: 02:16:09:FA:40:08
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Number of frame: 18
+Destination MAC address: 01:00:02:16:09:FA
+Source MAC address: 40:00:90:27:A1:36
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: D008
+--------------------------------------------------------
+Number of frame: 19
+Destination MAC address: 00:45:00:00:43:95
+Source MAC address: D8:40:00:FF:11:8F
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: 2BC3
+--------------------------------------------------------
+Number of frame: 20
+Destination MAC address: 3E:02:0B:D8:45:B9
+Source MAC address: 16:AD:EB:00:35:00
+Frame type: Ethernet DIX
+Protocol type: Unknown
+Protocol number: 2F65
+--------------------------------------------------------
+Number of frame: 21
+Destination MAC address: E1:3F:13:00:00:00
+Source MAC address: 01:00:00:00:00:00
+Frame type: Ethernet LLC
+--------------------------------------------------------
+Total number of frames: 21
+Frame types:
+Ethernet DIX: 15
+Ethernet Raw 802.3: 0
+Ethernet SNAP: 0
+Ethernet LLC: 6
+Protocol types:
+IPv4: 6
+ARP: 0
