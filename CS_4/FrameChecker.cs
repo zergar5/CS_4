@@ -86,7 +86,7 @@ namespace CS_4
             frame.AppendLine();
         }
 
-        public void PrintIPAdress(StringBuilder frame, int protocolByteNumber)
+        public void PrintIPAdress(StringBuilder frame, ref int protocolByteNumber)
         {
             for (var i = 0; i < 4; i++, protocolByteNumber++)
             {
@@ -97,7 +97,7 @@ namespace CS_4
             frame.AppendLine();
         }
 
-        public void PrintARPAdress(StringBuilder frame, int LEN, int protocolByteNumber)
+        public void PrintARPAdress(StringBuilder frame, int LEN, ref int protocolByteNumber)
         {
             for (var i = 0; i < LEN - 1; i++, protocolByteNumber++)
             {
@@ -135,7 +135,6 @@ namespace CS_4
                         _frames["Ethernet LLC"]++;
                         break;
                 }
-
                 _byteNumber += LT;
             }
             
@@ -168,10 +167,10 @@ namespace CS_4
 
                     protocolByteNumber += 3;
                     frame.Append("Source IP address: ");
-                    PrintIPAdress(frame, protocolByteNumber);
+                    PrintIPAdress(frame, ref protocolByteNumber);
 
                     frame.Append("Destination IP address: ");
-                    PrintIPAdress(frame, protocolByteNumber);
+                    PrintIPAdress(frame, ref protocolByteNumber);
 
                     frame.Append("Data: ");
                     for (var i = 0; i < frameSize - headerSize; i++, protocolByteNumber++)
@@ -227,18 +226,17 @@ namespace CS_4
 
                     frame.AppendLine(Operation == 1 ? "Request" : "Reply");
 
-
                     frame.Append("Sender hardware address: ");
-                    PrintARPAdress(frame, HLEN, protocolByteNumber);
+                    PrintARPAdress(frame, HLEN, ref protocolByteNumber);
 
                     frame.Append("Sender protocol address: ");
-                    PrintARPAdress(frame, PLEN, protocolByteNumber);
+                    PrintARPAdress(frame, PLEN, ref protocolByteNumber);
 
                     frame.Append("Target hardware address: ");
-                    PrintARPAdress(frame, HLEN, protocolByteNumber);
+                    PrintARPAdress(frame, HLEN, ref protocolByteNumber);
 
                     frame.Append("Target protocol address: ");
-                    PrintARPAdress(frame, PLEN, protocolByteNumber);
+                    PrintARPAdress(frame, PLEN, ref protocolByteNumber);
 
                     if (protocolByteNumber - _byteNumber < 46)
                     {
